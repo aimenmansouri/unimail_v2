@@ -1,0 +1,145 @@
+
+body {
+    background-color: #F8F9FA;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+#my-nav-bar {
+    background-color: white;
+}
+
+#my-brand {
+    font-weight : 700;
+}
+
+#date {
+    font-weight: 200;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navmarg{
+    height: 56px;
+}
+
+#contexts {
+    white-space: pre-wrap;
+}
+
+.fixed #contexts a
+{
+   color: white;
+}
+.table{
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+    
+  }
+
+  .chat_user {
+    transition: 0.4s;
+    border-left: 1px;
+  }
+  
+  .chat_user:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: #cfe2ff;
+  }
+  
+  @media only screen and (min-width: 768px) {
+
+    .offcanvas 
+    {
+        width: 65%;
+    }
+
+    #close_chat
+    {
+        display: none;
+    }
+    .memb
+    {
+        margin-right: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    .offcanvas 
+    {
+        width: 100%;
+    }
+
+
+  }
+
+  .off-header
+  {
+      padding : 0px;
+  }
+  .offcanvas-body
+  {
+      padding: 5px;
+      word-wrap: break-word;
+       word-break: break-word;
+
+  }
+
+  .send
+  {
+      background-color: #cfe2ff;
+      padding: 10px;
+      display: inline-block;
+  }
+
+  .receive
+  {
+      background-color: #f8f9fa;
+      padding: 10px;
+      display: inline-block;
+  }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #c1c1c1; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #606060; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
